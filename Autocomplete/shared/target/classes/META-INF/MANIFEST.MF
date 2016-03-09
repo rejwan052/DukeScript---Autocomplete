@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1457165314559
+Build-Jdk: 1.8.0_71
+Built-By: Imtiaz
+Bundle-ManifestVersion: 2
+Bundle-Name: Autocomplete Shared Client Server Data Structures
+Bundle-SymbolicName: com.eusia.autocomplete.Autocomplete.shared
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.eusia.autocomplete.Autocomplete.shared;version="1.0.
+ 0.SNAPSHOT"
+Import-Package: net.java.html;version="[1.2,2)",org.netbeans.html.json.s
+ pi;version="[1.2,2)"
+Tool: Bnd-2.1.0.20130426-122213

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="row center">
+                <img src="eusia.gif" alt="EUSIA LOGO">
+<!--                <div class="header-textcolor name">by Imtiaz Kabir</div>
+                <div class="header-textcolor title">Jr. Software Engineer</div>
+                <div class="header-textcolor title">e-mail: ikziko@outlook.com</div>
+                
+                <div class="header-textcolor company">EUSIA BD Ltd.</div>
+                <div class="header-textcolor title">871, Begum Rokeya sharani, Dhaka-1216</div>
+                <div class="header-textcolor title">Tel: 880 1682 063 549</div>
+                <div class="header-textcolor title">Web: www.eusia.info</div>
+                <div class="header-textcolor company">*** Simple Autocomplete Example ***</div>-->
+                <!-- autocomplete box-->
+                <div>
+                    <input class="textfield" data-bind="textInput: keyword" placeholder="Type something starts with A">
+                </div>
+                <!-- autocomplete doctor's name selection -->
+                <div class="autocompletelist" data-bind="style:{display:displayclass}">
+                    <ul data-bind="foreach: selecteditems">                                   
+                        <li class="clearfix">
+                            <label data-bind="text: name, click: selectItem"></label>
+                        </li> 
+                    </ul>
+                </div> 
+            </div>
+        </div>        
+    </body>
+</html>

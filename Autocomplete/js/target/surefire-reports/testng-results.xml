@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1120" started-at="2016-03-05T08:08:39Z" finished-at="2016-03-05T08:08:40Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="1120" started-at="2016-03-05T08:08:39Z" finished-at="2016-03-05T08:08:40Z">
+      <class name="com.eusia.autocomplete.Autocomplete.js.JsInteractionTest">
+        <test-method status="PASS" signature="initializeJSEngine()[pri:0, instance:com.eusia.autocomplete.Autocomplete.js.JsInteractionTest@4cdbe50f]" name="initializeJSEngine" is-config="true" duration-ms="925" started-at="2016-03-05T14:08:39Z" finished-at="2016-03-05T14:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeJSEngine -->
+        <test-method status="PASS" signature="testCallbackFromJavaScript()[pri:0, instance:com.eusia.autocomplete.Autocomplete.js.JsInteractionTest@4cdbe50f]" name="testCallbackFromJavaScript" duration-ms="177" started-at="2016-03-05T14:08:40Z" finished-at="2016-03-05T14:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCallbackFromJavaScript -->
+        <test-method status="PASS" signature="shutdownJSEngine()[pri:0, instance:com.eusia.autocomplete.Autocomplete.js.JsInteractionTest@4cdbe50f]" name="shutdownJSEngine" is-config="true" duration-ms="1" started-at="2016-03-05T14:08:40Z" finished-at="2016-03-05T14:08:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shutdownJSEngine -->
+      </class> <!-- com.eusia.autocomplete.Autocomplete.js.JsInteractionTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="136" started-at="2016-03-05T08:08:32Z" finished-at="2016-03-05T08:08:32Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="136" started-at="2016-03-05T08:08:32Z" finished-at="2016-03-05T08:08:32Z">
+      <class name="com.eusia.autocomplete.Autocomplete.shared.ContactsTest">
+        <test-method status="PASS" signature="hasToStartWithPlus()[pri:0, instance:com.eusia.autocomplete.Autocomplete.shared.ContactsTest@3c5a99da]" name="hasToStartWithPlus" duration-ms="120" started-at="2016-03-05T14:08:32Z" finished-at="2016-03-05T14:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hasToStartWithPlus -->
+        <test-method status="PASS" signature="noAlphabetInPhoneNumber()[pri:0, instance:com.eusia.autocomplete.Autocomplete.shared.ContactsTest@3c5a99da]" name="noAlphabetInPhoneNumber" duration-ms="0" started-at="2016-03-05T14:08:32Z" finished-at="2016-03-05T14:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noAlphabetInPhoneNumber -->
+        <test-method status="PASS" signature="mayContainSpaces()[pri:0, instance:com.eusia.autocomplete.Autocomplete.shared.ContactsTest@3c5a99da]" name="mayContainSpaces" duration-ms="0" started-at="2016-03-05T14:08:32Z" finished-at="2016-03-05T14:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mayContainSpaces -->
+      </class> <!-- com.eusia.autocomplete.Autocomplete.shared.ContactsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

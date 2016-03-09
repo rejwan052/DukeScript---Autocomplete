@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1457241076873
+Build-Jdk: 1.8.0_71
+Built-By: Imtiaz
+Bundle-ManifestVersion: 2
+Bundle-Name: Autocomplete General Client Code
+Bundle-SymbolicName: com.eusia.autocomplete.Autocomplete
+Bundle-Version: 1.0.0.SNAPSHOT
+Class-Path: lib/Autocomplete-js-1.0-SNAPSHOT.jar lib/Autocomplete-shared
+ -1.0-SNAPSHOT.jar lib/net.java.html-1.2.3.jar lib/net.java.html.json-1.
+ 2.3.jar lib/net.java.html.boot-1.2.3.jar lib/net.java.html.sound-1.2.3.
+ jar lib/ko4j-1.2.3.jar
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.eusia.autocomplete.Autocomplete;version="1.0.0.SNAPS
+ HOT"
+Import-Package: net.java.html;version="[1.2,2)",net.java.html.boot;versi
+ on="[1.2,2)",org.netbeans.html.json.spi;version="[1.2,2)"
+Main-Class: com.eusia.autocomplete.Autocomplete.Main
+Tool: Bnd-2.1.0.20130426-122213
